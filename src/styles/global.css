@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --background: #f2f3f5;
+    --gray-line: #dcdde0;
+    --text: #666;
+    --text-highlight: #b3b9ff;
+    --title: #2e384d;
+    --red: #e83f5b;
+    --green: #4cd62b;
+    --blue: #5965e0;
+    --blue-dark: #4953b8;
+    --blue-twitter: #2aa9e0;
+}
+
+/*:root {
+    --white: #3f3f3f;
+    --background: #292929;
+    --gray-line: #dcdde0;
+    --white-border: #272727;
+    --text: #ccc;
+    --text-highlight: #b3b9ff;
+    --title: #ecf0f8;
+    --red: #e83f5b;
+    --green: #4cd62b;
+    --blue: #5965e0;
+    --blue-dark: #4953b8;
+    --blue-twitter: #2aa9e0;
+ }*/
+
+@media(max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media(max-height: 1366px) {
+    header {
+        margin-bottom: 5rem;
+    }
+    section {
+        padding-bottom: 2.5rem;
+    }
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+body, input, textarea, button {
+    font: 400 1rem "Inter", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
